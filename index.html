@@ -3,6 +3,35 @@
 <head>
 	<title>2020218008 권재영</title>
 	<style>
+		ul {
+		  list-style-type: none;
+		  padding: 0px;
+		  margin: 0px;
+		  width: 100px;
+		  background: #FF6347;
+		  height: 100%;
+		  overflow: auto;
+		  position: fixed;
+		}
+
+		li a {
+		  text-decoration: none;
+		  padding: 10px;
+		  display: block;
+		  color: #000;
+		  font-weight: bold;
+		}
+
+		li a:hover {
+		  background: #333;
+		  color: #fff;
+		}
+
+		li a.home {
+		  background : #333;
+		  color: #fff;
+	}
+	
 		body {
 			font-family: Arial, sans-serif;
 			margin: 0;
@@ -23,6 +52,7 @@
 		}
 		
 		.post {
+			margin-left: 120px;
 			background-color: #f9f9f9;
 			border: 1px solid #ccc;
 			margin-bottom: 20px;
@@ -45,12 +75,13 @@
 	</style>
 </head>
 <body>
-	<a href="/self">
-    		<h2>이 링크를 클릭해 보세요!</h2>
-	</a>
 	<header class="header">
 		<h1>봄교정의 인상적인 모습</h1>
 	</header>
+	<ul>
+	  <li><a class="home" href="#">봄교정</a></li>
+	  <li><a href="self.html">자기소개서</a></li>
+	</ul>
 	<div class="container">
 		<div>
 			<img class="image" src="1.jpg" height="152" width="300">
